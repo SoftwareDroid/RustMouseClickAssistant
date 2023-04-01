@@ -1,0 +1,5 @@
+cargo install cross
+sudo apt-get install docker
+sudo groupadd docker
+# Restart
+cross build --target x86_64-pc-windows-gnu
